@@ -6,7 +6,7 @@ import user from '../../public/assets/images/user.jpg'
 
 const Navbar = () => {
     return (
-        <nav className=' h-16'>
+        <nav className='flex items-center h-16'>
             <div className='flex items-center ml-6 lg:w-sidebar'>
                 <h2 className='mr-1.5'>Starbucks</h2>
                 <svg className='pl-px mt-1' width="10" height="8" viewBox="0 0 8 6" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -15,7 +15,7 @@ const Navbar = () => {
             </div>
             <SearchOption />
 
-            <div className='flex mr-4'>
+            <div className='flex gap-4 mr-4'>
                 <Image src={Vector} alt='bell' />
                 <Image src={user} alt='user image' />
 
